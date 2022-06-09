@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>D2Bot</title>
+    <link rel="icon" href="src/img/favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="src/index.css">
+    <meta property="og:image" content="https://raw.githubusercontent.com/d2discordbot/d2discordbot.github.io/main/docs/src/favicon.png"/>
+</head>
+    <body> 
+        <center>
+            
+            <!-- Tess -->
+            <img src="https://www.bungie.net/common/destiny2_content/icons/79e6427d92328e554f585fe8886fce52.jpg" alt="Tess Eververse (Taken from Bungie API)">
+            
+            <h1>Refresh in: <span id="tessTime"></span></h1>
+            
+            <div class="tab">
+                <button class="tablinks" onclick="openTab('Featured', 'tess')" id="defaultTessOpen">Featured</button>
+                <button class="tablinks" onclick="openTab('Weekly', 'tess')">Weekly Offerings</button>
+                <button class="tablinks" onclick="openTab('Bright', 'tess')">Bright Dust</button>
+            </div>
+
+            <!-- Tab content -->
+            <div id="Featured" class="tabcontent">
+                <div class="row">
+
+                    <!--ITS API TIME B)-->
+                    <!-- <div class="column">
+                        <img src="https://www.seekpng.com/png/full/28-288889_d-twitch-emote-transparent.png" width="100" height="100">
+                    </div>
+                    <div class="column">
+                        <img src="https://www.seekpng.com/png/full/28-288889_d-twitch-emote-transparent.png" width="100" height="100">
+                    </div> -->
+                </div>
+            </div>
+
+            <div id="Weekly" class="tabcontent">
+
+            </div>
+
+            <div id="Bright" class="tabcontent">
+                
+            </div>
+
+            <br/>
+
+
+            <img src="https://www.bungie.net/common/destiny2_content/icons/801c07dc080b79c7da99ac4f59db1f66.jpg" alt="Xur (Taken from Bungie API)">
+            <h1>Refresh in: <span id="xurTime"></span></h1>
+
+            <div class="tab">
+                <button class="tablinks" onclick="openTab('Exotic', 'xur')" id="defaultXurOpen">Exotic Gear</button>
+                <button class="tablinks" onclick="openTab('Weapon', 'xur')">Legendary Weapons</button>
+                <button class="tablinks" onclick="openTab('Armor', 'xur')">Legendary Armor</button>
+            </div>
+
+            <!-- Tab content -->
+            <div id="Exotic" class="tabcontent">
+                <h1>hi</h1>
+            </div>
+
+            <div id="Weapon" class="tabcontent">
+
+            </div>
+
+            <div id="Armor" class="tabcontent">
+                
+            </div>
+        </center>
+        <script src="src/index.js"></script>
+    </body> 
+</html>
